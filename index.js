@@ -1,8 +1,8 @@
 const express = require('express');
 const app = require('app');
 
-app.listen(3400, function () {
-  console.log('here comes dat boi');
+silly.listen(3400, function () {
+  console.log('it lives');
 });
 
-app.use(express.static('public'));
+app.use(express.static('catattack'));
